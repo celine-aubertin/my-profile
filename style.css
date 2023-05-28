@@ -1,0 +1,106 @@
+/* Colors and fonts */
+
+body {
+	background:rgb(255, 237, 219);
+	font-family:'Mulish', sans-serif;
+	font-size: 16px ;
+	color: darkred;
+	font-weight: lighter;
+}
+
+h1,h2,h3 {
+	font-family: 'Bitter', serif;
+	color: rgb(166, 75, 42);
+}
+
+h1{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+h2{
+	font-size: 17px;
+	font-weight: 600;
+}
+
+a {
+	color: orangered ;
+	text-decoration: none ;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+a:hover {
+	color: rgb(255 246 236);
+}
+
+#profilepicture{
+	width: 100px;
+	border-radius: 10%;
+} 
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-sand{
+	background-color: rgb(255 246 236);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); 
+	border-radius: 4px;
+	margin: 10px 0px;
+	text-align: center;
+
+}
+
+.img-circ-rect{
+	border-radius: 10%;
+}
+
+.btn-sand {
+	color: orangered; 
+	background-color: rgb(255, 237, 219);
+	padding: 15px 20px;
+	border-radius: 4px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border: 0.3px solid;
+    border-color: brown;
+}
+
+.btn-sand:hover {
+	background-color:orangered;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px; 
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: : 60px;
+}
+
+#Introduction p {
+	margin-bottom: 40px;
+}
